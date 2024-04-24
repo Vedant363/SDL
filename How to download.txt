@@ -1,0 +1,30 @@
+cd ~/Downloads
+chmod +x [xampp-installer-filename]
+sudo ./[xampp-installer-filename]
+sudo /opt/lampp/lampp start
+http://localhost
+
+
+If errors : 
+sudo /opt/lampp/logs
+sudo netstat -tuln | grep -E '80|443|3306'
+sudo /opt/lampp/lampp start apache
+sudo /opt/lampp/lampp start mysql
+sudo /opt/lampp/lampp start proftpd
+
+
+Kill process:
+sudo netstat -tuln | grep 3306
+sudo kill [PID]
+sudo netstat -tuln | grep 3306
+
+Ruby :
+sudo apt install ruby-full
+ruby --version
+
+htdocs permission:
+ls -ld /opt/lampp/htdocs
+sudo chmod -R 777 /opt/lampp/htdocs
+
+
+

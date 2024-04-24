@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="bookstore.xsd">
+    <book ISBN="978-0132350884">
+        <title>Artificial Intelligence: A Modern Approach</title>
+        <author>Stuart Russell, Peter Norvig</author>
+        <year>2022</year>
+        <price>54.99</price>
+    </book>
+    <book ISBN="978-0596009205">
+        <title>Python Cookbook</title>
+        <author>David Beazley, Brian K. Jones</author>
+        <year>2020</year>
+        <price>49.99</price>
+    </book>
+</bookstore>
